@@ -1,0 +1,118 @@
+/******GLOBAL STYLES******/
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    height: 850px;
+    width: 1200px;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    margin: 50px auto;
+    overflow: auto;
+    text-transform: uppercase;
+}
+
+/********MAIN STYLES********/
+.container {
+    text-align: center;
+}
+
+/***FIRST ROW***/
+.block-small-left-top,
+.block-small-right-top
+ {
+    box-sizing: border-box;
+    padding-top: 25px;
+    width: 400px;
+    height: 210px;
+    float: left;
+    background-color: #fff;
+}
+
+.block-small-center-top {
+    box-sizing: border-box;
+    padding-top: 25px;
+    width: 400px;
+    height: 210px;
+    float: left;
+}
+
+/***SECOND ROW***/
+.block-large-left {
+    box-sizing: border-box;
+    padding-top: 100px;
+    width: 400px;
+    height: 430px;
+    float: left;
+}
+
+.block-large-center {
+    box-sizing: border-box;
+    padding-top: 80px;
+    width: 400px;
+    height: 430px;
+    float: left;
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+.block-large-right {
+    box-sizing: border-box;
+    padding-top: 80px;
+    width: 400px;
+    height: 430px;
+    float: left;
+}
+
+/***THIRD ROW***/
+.block-small-bottom-left {
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 400px;
+    height: 210px;
+    float: left;
+    background-color: #fff;
+}
+
+.block-small-bottom-center {
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 400px;
+    height: 210px;
+    float: left;
+}
+
+.block-small-bottom-right {
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 400px;
+    height: 210px;
+    float: left;
+    background-color: #fff;
+}
+
+/***SPANS, STRONGS, ETC.***/
+.highlight {
+    background: #fff44f;
+    padding: 5px 12px 8px;
+}
+
+.select-text {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+
+.title-text {
+    font-size: 30px;
+    margin: 0;
+}
